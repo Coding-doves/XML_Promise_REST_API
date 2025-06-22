@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 15px;
+  max-width: 800px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.header h3 {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.header p {
+  font-size: 1rem;
+  color: #666;
+  font-style: italic;
+  margin-top: 0;
+}
+
+.tasks li{
+    list-style-type: none;
+    border-bottom: 2px #a1a1a1 solid;    
+    padding: 1.5rem 1rem;
+    color: #242323;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+}
+
+.tasks li input[type="checkbox"]{
+    transform: scale(1.5);
+}
+
+.checked {
+    color:#b1aeae;
+    text-decoration: line-through;
+    font-style: italic;
+}
